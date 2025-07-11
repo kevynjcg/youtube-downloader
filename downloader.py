@@ -3,7 +3,7 @@ from tkinter import messagebox, filedialog, ttk
 from pytubefix import YouTube
 import os
 
-# Encoding setup
+# Encoding setup disregard
 abc = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ://"
 key = "passwordkevyn"
 letters_to_value = {abc[i]: i for i in range(len(abc))}
